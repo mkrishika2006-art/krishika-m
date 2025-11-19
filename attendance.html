@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take Attendance | Class2Lens</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Take Attendance</h1>
+
+        <p>Upload a classroom photo. The app will detect each student and mark attendance automatically.</p>
+
+        <input type="file" id="classPhoto" accept="image/*">
+
+        <button class="btn btn-green" id="uploadBtn">Upload & Process</button>
+
+        <h2 id="status" class="status-text"></h2>
+
+        <div id="results"></div>
+
+        <a href="index.html" class="back-link">← Back to Home</a>
+    </div>
+
+    <script src="attendance.js"></script>
+</body>
+</html>
