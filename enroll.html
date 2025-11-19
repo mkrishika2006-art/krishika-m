@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enroll Student | Class2Lens</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="manifest" href="manifest.json" />
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Enroll Student</h1>
+
+        <form id="enrollForm">
+            <label>Student Name</label>
+            <input type="text" id="studentName" placeholder="Enter name" required />
+
+            <label>Register Number</label>
+            <input type="text" id="studentReg" placeholder="Enter register number" required />
+
+            <label>Upload Student Face Photo</label>
+            <input type="file" id="photo" accept="image/*" required />
+
+            <button type="submit" class="btn btn-green">Submit Enrollment</button>
+        </form>
+
+        <p id="status" class="status-text"></p>
+
+        <a href="index.html" class="back-link">← Back to Home</a>
+    </div>
+
+    <script src="enroll.js"></script>
+</body>
+</html>
+

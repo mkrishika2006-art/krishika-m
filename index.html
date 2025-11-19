@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class2Lens</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#4CAF50" />
+</head>
+
+<body>
+    <header>
+        <h1>Class2Lens</h1>
+        <p>AI-Powered Attendance</p>
+    </header>
+
+    <main class="menu">
+        <button onclick="window.location.href='enroll.html'" class="btn">➕ Enroll Student</button>
+        <button onclick="window.location.href='attendance.html'" class="btn">📸 Take Attendance</button>
+    </main>
+
+    <footer>
+        <p>© 2025 Class2Lens</p>
+    </footer>
+
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("service-worker.js");
+        }
+    </script>
+</body>
+</html>
