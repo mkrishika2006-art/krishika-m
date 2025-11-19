@@ -8,7 +8,7 @@ const statusText = document.getElementById("status");
 const resultsDiv = document.getElementById("results");
 
 // Backend API URL
-const API_URL = "https://class2lens-backend.onrender.com/process_attendance"; 
+const API_URL = "https://class2lens-backend.onrender.com/attendance"; 
 // (Later you will replace with your own deployed backend URL)
 
 
