@@ -14,7 +14,6 @@ document.getElementById("enrollForm").addEventListener("submit", async (e) => {
         return;
     }
 
-    // Create form data for file upload
     const formData = new FormData();
     formData.append("name", name);
     formData.append("register_no", reg);
